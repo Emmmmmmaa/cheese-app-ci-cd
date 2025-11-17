@@ -63,7 +63,8 @@ class TestAPIEndpoints:
         response = client.post("/")
         assert response.status_code == 405
 
-    def test_add_endpoint():
+    def test_add_endpoint(self):
+        """Test the add endpoint"""
         response = client.get("/add/?x=10&y=20")
         assert response.status_code == 200
         assert response.json()["result"] == 30
