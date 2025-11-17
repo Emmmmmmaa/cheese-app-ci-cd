@@ -53,3 +53,6 @@ secrets/
 
 # Docker
 *.log
+
+
+command_line.md
