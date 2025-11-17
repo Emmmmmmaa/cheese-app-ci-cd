@@ -348,6 +348,7 @@ git commit -m "Add CI pipeline"
 git push
 ```
 
+
 ### Watch GitHub Actions
 
 1. Go to your GitHub repository
